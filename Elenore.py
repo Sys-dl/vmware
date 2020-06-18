@@ -260,8 +260,6 @@ sys.stdout = open("./Elenore.txt", "w")
 print("file existing check...\n \n")
 sys.stdout.close()
 sys.stdout = sys.__stdout__
-print("　／　　─　　─＼ 　　\n／　　（●）（●）＼ \n|　 　　（__人__）　| 　\n"
-      "/　　　　∩ノ ⊃　／　 ............\n(　 ＼　／ ＿ノ|　| \n.＼　“　／＿＿|　| \n　. ＼ ／＿＿＿ ／")
 print("\n \n file existing check...\n \n")
 for IMP in IMPORTANT_FILE:
     if os.path.exists(IMP):
@@ -293,7 +291,7 @@ print("FOLDER:   " + CURRENTPATH)
 
 
 
-#バージョン情報の表示
+#display ESXi version
 sys.stdout = open("./Elenore.txt", "a")
 print("\n ********** VERSION ********** ")
 sys.stdout.close()
